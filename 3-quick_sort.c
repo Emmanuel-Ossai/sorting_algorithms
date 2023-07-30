@@ -14,7 +14,7 @@ void swapper(int *m, int *n)
 {
 	int swapped;
 
-	swapper = *m;
+	swapped = *m;
 	*m = *n;
 	*n = swapped;
 }
