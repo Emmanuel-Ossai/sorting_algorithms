@@ -2,7 +2,7 @@
 
 /**
  * swap_ints - a C function that swap integers of an array
- * @m: first integer
+ * @m: first integer.
  * @n: second integer
  */
 void swap_ints(int *m, int *n)
