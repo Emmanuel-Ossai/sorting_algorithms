@@ -3,7 +3,7 @@
 void swapper(int *m, int *n);
 int lomuto(int *array, size_t size, int left, int right);
 void sort_lom(int *array, size_t size, int left, int right);
-void sort_fast(int *array, size_t size);
+void quick_sort(int *array, size_t size);
 
 /**
  * swapper - a C function that swap integers
@@ -75,11 +75,11 @@ void sort_lom(int *array, size_t size, int left, int right)
 }
 
 /**
- * sort_fast - a C function that sort fast in ascending order
+ * quick_sort - a C function that sort fast in ascending order
  * @array: array
  * @size: size
  */
-void sort_fast(int *array, size_t size)
+void quick_sort(int *array, size_t size)
 {
 	if (array == NULL || size < 2)
 		return;
