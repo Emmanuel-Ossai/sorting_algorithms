@@ -7,7 +7,7 @@ void sort_fast(int *array, size_t size);
 
 /**
  * swapper - a C function that swap integers
- * @m: first intege
+ * @m: first integer.
  * @n: second integer
  */
 void swapper(int *m, int *n)

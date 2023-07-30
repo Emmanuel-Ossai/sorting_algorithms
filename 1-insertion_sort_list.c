@@ -2,8 +2,8 @@
 
 /**
  * list_swapper - a c function that swap nodes in a list
- * @h: list head
- * @n1: first node
+ * @h: list head.
+ * @n1: first node.
  * @n2: second node
  */
 void list_swapper(listint_t **h, listint_t **n1, listint_t *n2)

@@ -2,7 +2,7 @@
 
 /**
  * swapper - a C function that swap integers
- * @m: first integer
+ * @m: first integer.
  * @n: second integer
  */
 
